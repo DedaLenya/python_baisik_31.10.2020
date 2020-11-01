@@ -3,4 +3,5 @@
 # Считаем 3 + 33 + 333 = 369.
 
 n = str(input('input number >>'))
-print(int(n) + int(n+n) + int(n+n+n))
+a = f"{int(n) + int(n*2) + int(n*3)}"
+print(a)
