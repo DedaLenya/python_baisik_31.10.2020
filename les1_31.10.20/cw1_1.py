@@ -1,4 +1,4 @@
-string = input("Введите любую строку")
+string = input("Введите любую  строку")
 i = 0
 while i < len(string):
     if string[i:i+2] == "##":
