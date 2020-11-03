@@ -17,8 +17,9 @@
 
 a = int(input("Результат за день в км>>"))
 b = int(input("Результат ожидаемый в км>>"))
-d = 0
-while a*0.9 <= b:
+d = 1
+print(d, "-й день:", round(a, 2))
+while a < b:
     d += 1
     print(d, "-й день:", round(a, 2))
     a = a * 1.1
